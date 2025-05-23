@@ -36,6 +36,9 @@
             textBox1 = new TextBox();
             timer1 = new System.Windows.Forms.Timer(components);
             button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -101,11 +104,44 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // button5
+            // 
+            button5.Location = new Point(495, 168);
+            button5.Name = "button5";
+            button5.Size = new Size(142, 98);
+            button5.TabIndex = 6;
+            button5.Text = "演習7-1";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(496, 301);
+            button6.Name = "button6";
+            button6.Size = new Size(139, 97);
+            button6.TabIndex = 7;
+            button6.Text = "演習7-2";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(495, 37);
+            button7.Name = "button7";
+            button7.Size = new Size(140, 97);
+            button7.TabIndex = 8;
+            button7.Text = "演習7-4";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(textBox1);
             Controls.Add(button3);
@@ -127,5 +163,8 @@
         private TextBox textBox1;
         private System.Windows.Forms.Timer timer1;
         private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
     }
 }
